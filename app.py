@@ -7,9 +7,9 @@ from spin_logic import generate_spin_amounts, get_user_total, should_block_user
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "spin_secret_default")
 
-MAIN_BOT_TOKEN = os.environ.get("MAIN_BOT_TOKEN")
-VIEW_BOT_API    = os.environ.get("VIEW_BOT_API")
-ADMIN_ID        = os.environ.get("ADMIN_ID")
+MAIN_BOT_TOKEN = os.environ.get("7429740172:AAEUV6A-YmDSzmL0b_0tnCCQ6SbJBEFDXbg")
+VIEW_BOT_API    = os.environ.get("7547894309:AAH3zIzu5YfRDzcYBiFvzWAfW8FUTPum3g4")
+ADMIN_ID        = os.environ.get("7929115529")
 
 user_spins = {}
 
