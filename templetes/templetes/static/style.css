@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background: #fff9f0;
+}
+.wheel { margin-top: 30px; }
+.ad-top, .ad-bottom {
+  background: #ddd;
+  padding: 10px;
+  margin: 10px;
+}
